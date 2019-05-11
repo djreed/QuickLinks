@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Risky Click",
+	"version": "0.1",
+	"description": "Frenetically deactivate links on hover",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["risky_click.js"],
+			"run_at": "document_end"
+		}
+	]
+}
+
