@@ -6,7 +6,8 @@
 	"description": "Disables links for 1/10 of a second every second",
   "author": "David Reed",
 
-  "icons": {
+  "icons":
+    {
   		"16": "icon16.png",
   		"32": "icon32.png",
   		"48": "icon48.png",
@@ -14,9 +15,13 @@
   	},
 
   "content_scripts":
-  	[
+    [
   		{
-  			"matches": ["*://*/*"],
+  			"matches":
+        [
+          "http://*/*",
+          "https://*/*"
+        ],
   			"all_frames": true,
   			"js":
         [
@@ -26,7 +31,8 @@
   		}
   	],
 
-  "permissions": [
+  "permissions":
+  [
     "activeTab"
   ]
 }
