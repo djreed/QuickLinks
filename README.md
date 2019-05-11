@@ -1,9 +1,9 @@
 # QuickLinks
 
-Chrome extension that efficiently simplify customized internal or "organic" sources via link caching and AI optimization.
+Does the internet ever feel _too fast_ for you?
 
-By efficiently actualizing network multimedia, this plugin enables developers to quickly maintain cloud-ready infrastructures, and seamlessly enable sustainable deliverables.
+Do you hate that webpages work on the first try?
 
-## TODO:
-- [ ] Intrinsically network technically restorative information
-- [ ] Collaboratively actualize end-to-end functionalities
+Download QuickLinks! The only browser extension guaranteed to increase your web-browsing annoyance by a marginal amount.
+
+100ms out of every second, each link on the page will be inactive, forcing you to _sometimes_ navigate a second time.

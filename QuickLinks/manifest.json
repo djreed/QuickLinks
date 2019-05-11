@@ -1,15 +1,16 @@
 {
 	"manifest_version": 2,
-  "version": "1.0.0",
+  "version": "0.0.1",
   "name": "Quicker Links Web-Wide",
-	"shortname": "QuickLinks",
-	"description": "Speed up link access via cached AI web crawling",
+	"short_name": "QuickLinks",
+	"description": "Disables links for 1/10 of a second every second",
+  "author": "David Reed",
 
   "icons": {
-  		"16": "icon16.jpg",
-  		"32": "icon32.jpg",
-  		"48": "icon48.jpg",
-  		"128": "icon128.jpg"
+  		"16": "icon16.png",
+  		"32": "icon32.png",
+  		"48": "icon48.png",
+  		"128": "icon128.png"
   	},
 
   "content_scripts":
@@ -23,7 +24,5 @@
         ],
   			"run_at": "document_end"
   		}
-  	],
-
-    "permissions": []
+  	]
 }
