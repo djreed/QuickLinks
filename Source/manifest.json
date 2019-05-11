@@ -1,9 +1,9 @@
 {
 	"manifest_version": 2,
   "version": "0.0.1",
-  "name": "Quicker Links Web-Wide",
-	"short_name": "QuickLinks",
-	"description": "Disables links for 1/10 of a second every second",
+  "name": "Link Disabling on a Timer",
+	"short_name": "LinkDisabler",
+	"description": "Disables links for 1/10 of a second, every second",
   "author": "David Reed",
 
   "icons":
@@ -25,7 +25,7 @@
   			"all_frames": true,
   			"js":
         [
-          "quicklink.js"
+          "content_script.js"
         ],
   			"run_at": "document_end"
   		}
