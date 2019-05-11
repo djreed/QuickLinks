@@ -32,8 +32,8 @@ function detectAnchorElement(domNode) {
 }
 
 const LINK_TOGGLE_DELAY_MAX = 1000;
-const LINK_OFF_DURATION = 100;
-const LINK_ON_DURATION = 900;
+const LINK_OFF_DURATION = 500;
+const LINK_ON_DURATION = 500;
 
 function toggleLink(nodeWrapper) {
   if (nodeWrapper.domNode.getAttribute(HREF_ATTR) === nodeWrapper.originalLink) {
