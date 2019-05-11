@@ -19,7 +19,7 @@
   		{
   			"matches":
         [
-          "*://*/*",
+          "*://*/*"
         ],
   			"all_frames": true,
   			"js":
