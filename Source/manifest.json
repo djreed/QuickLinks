@@ -19,8 +19,7 @@
   		{
   			"matches":
         [
-          "http://*/*",
-          "https://*/*"
+          "*://*/*",
         ],
   			"all_frames": true,
   			"js":
